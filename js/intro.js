@@ -1,24 +1,24 @@
 let header = document.querySelector('#intro');
 let anim = [
-    { t: "{ }", ms: 200 },
-    { t: "{_}", ms: 200 },
-    { t: "{ }", ms: 200 },
-    { t: "{_}", ms: 200 },
-    { t: "{O_}", ms: 100 },
-    { t: "{OT_}", ms: 100 },
-    { t: "{OTT_}", ms: 100 },
-    { t: "{OTTO_}", ms: 100 },
-    { t: "{OTTOM_}", ms: 100 },
-    { t: "{OTTOMA_}", ms: 100 },
-    { t: "{OTTOMAT_}", ms: 100 },
-    { t: "{OTTOMATE_}", ms: 100 },
-    { t: "{OTTOMATED_}", ms: 100 },
-    { t: "{OTTOMATED }", ms: 200 },
-    { t: "{OTTOMATED_}", ms: 200 },
-    { t: "{OTTOMATED }", ms: 200 },
-    { t: "{OTTOMATED_}", ms: 200 },
-    { t: "{OTTOMATED}", ms: 200 },
-    { t: "{OTTOMATED}", ms: 200 }
+    { t: "d", ms: 200 },
+    { t: "dr", ms: 200 },
+    { t: "dre", ms: 200 },
+    { t: "drea", ms: 200 },
+    { t: "dread", ms: 100 },
+    { t: "dread.", ms: 100 },
+    { t: "dread.c", ms: 100 },
+    { t: "dread.cl", ms: 100 },
+    { t: "dread.clo", ms: 100 },
+    { t: "dread.clou", ms: 100 },
+    { t: "dread.cloud", ms: 100 },
+    { t: "dread.cloud_", ms: 100 },
+    { t: "dread.cloud_", ms: 100 },
+    { t: "dread.cloud ", ms: 200 },
+    { t: "dread.cloud_", ms: 200 },
+    { t: "dread.cloud ", ms: 200 },
+    { t: "dread.cloud_", ms: 200 },
+    { t: "dread.cloud , ms: 200 },
+    { t: "dread.cloud", ms: 200 }
 ];
 let stepDenominator = 1;
 if (window.localStorage.stepDenominator)
